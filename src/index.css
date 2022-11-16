@@ -1,0 +1,66 @@
+@font-face {
+  font-family: IRANsansDN;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.eot");
+  src: url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.woff")
+      format("woff"),
+    url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.otf")
+      format("otf"),
+    url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.svg")
+      format("svg"),
+    url("./assets/fonts/IRANSansDN_Light/fonts/IRANSansDN_Light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANsansDN;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.eot");
+  src: url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.woff") format("woff"),
+    url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.otf") format("otf"),
+    url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.svg") format("svg"),
+    url("./assets/fonts/IRANSansDN/fonts/IRANSansDN.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANsansDN;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.eot");
+  src: url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.woff")
+      format("woff"),
+    url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.otf")
+      format("otf"),
+    url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.svg")
+      format("svg"),
+    url("./assets/fonts/IRANSansDN-Bold/fonts/IRANSansDN-Bold.ttf")
+      format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "IRANsansDN";
+}
+.active {
+  background-color: rgb(255, 89, 0)!important;
+}
+
+@keyframes rotate-anime {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.rotate-anime{
+animation: rotate-anime 5s infinite;
+}
